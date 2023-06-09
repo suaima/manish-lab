@@ -1,13 +1,29 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Blog from "./pages/Blog";
+import Home from "./pages/Home";
 
-function App() {
+
+const Routes = () => {
   return (
-    <>
-      <div>
-        Hello
-      </div>
-    </>
-  );
-}
+    <Router>
+      <Switch>
+        <Route
+          exact
+          path="/test"
+          component={Home}
+        />
 
-export default App;
+        <Route
+          exact
+          path="/blog"
+          component={Blog}
+        />
+
+      </Switch>
+    </Router>
+  );
+};
+
+export default Routes;
+
