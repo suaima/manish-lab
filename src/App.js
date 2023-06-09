@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Blog from "./pages/Blog";
 import Home from "./pages/Home";
+import ContactUs from "./pages/ContactUs";
 
 
 const Routes = () => {
@@ -18,6 +19,11 @@ const Routes = () => {
           exact
           path="/blog"
           component={Blog}
+        />
+        <Route
+          exact
+          path="/contactus"
+          component={ContactUs}
         />
 
       </Switch>

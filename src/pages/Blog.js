@@ -7,7 +7,7 @@ const Blog = () => {
     return (
         <>
             <HeaderInner />
-
+                
             <Footer subscribeDiv={true} />
         </>
     )
