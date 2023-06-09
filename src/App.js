@@ -11,7 +11,7 @@ const Routes = () => {
       <Switch>
         <Route
           exact
-          path="/test"
+          path="/"
           component={Home}
         />
 
