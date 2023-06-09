@@ -1,8 +1,14 @@
 import React from 'react'
+import Footer from '../sections/Footer'
+import Header from '../sections/Header'
 
 function Home() {
     return (
-        <div>Home</div>
+        <>
+            <Header />
+
+            <Footer subscribeDiv={true} />
+        </>
     )
 }
 
