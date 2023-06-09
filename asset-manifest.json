@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/manish-lab/static/css/main.809d3788.css",
+    "main.js": "/manish-lab/static/js/main.dd1187ec.js",
+    "static/js/787.7c4dde6a.chunk.js": "/manish-lab/static/js/787.7c4dde6a.chunk.js",
+    "index.html": "/manish-lab/index.html",
+    "main.809d3788.css.map": "/manish-lab/static/css/main.809d3788.css.map",
+    "main.dd1187ec.js.map": "/manish-lab/static/js/main.dd1187ec.js.map",
+    "787.7c4dde6a.chunk.js.map": "/manish-lab/static/js/787.7c4dde6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.809d3788.css",
+    "static/js/main.dd1187ec.js"
+  ]
+}
