@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MainSearchList from "../components/MainSearchList";
+import Home from "../pages/Home";
 
 const Routes = () => {
   return (
@@ -8,8 +8,8 @@ const Routes = () => {
       <Switch>
         <Route
           exact
-          path="/destinations/:destination/:region_group?/:region?/:resort?"
-          component={MainSearchList}
+          path="/test"
+          component={Home}
         />
       </Switch>
     </Router>
