@@ -3,6 +3,8 @@
 ::after,
 ::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 footer,
 header,
@@ -1158,7 +1160,7 @@ small {
 .fa-angle-down:before {
   content: "\f107";
 }
-/*! CSS Used from: https://flebo.in/static/css/main.cf96a488.chunk.css */
+/*! CSS Used from: /css/main.cf96a488.chunk.css */
 *,
 :after,
 :before {
@@ -3080,7 +3082,7 @@ ul {
     position: absolute;
   }
 }
-/*! CSS Used from: https://flebo.in/static/css/0.591db2b6.chunk.css */
+/*! CSS Used from: /css/0.591db2b6.chunk.css */
 .owl-carousel {
   display: none;
   width: 100%;
@@ -3205,20 +3207,17 @@ ul {
 /*! CSS Used fontfaces */
 @font-face {
   font-family: "icomoon";
-  src: url(https://flebo.in/static/media/icomoon.d2a7433c.eot);
-  src: url(https://flebo.in/static/media/icomoon.d2a7433c.eot) format("embedded-opentype"),
-    url(https://flebo.in/static/media/icomoon.67ab41aa.ttf) format("truetype"),
-    url(https://flebo.in/static/media/icomoon.d6fabdc2.woff) format("woff"),
-    url(https://flebo.in/static/media/icomoon.5807df19.svg) format("svg");
+  src: url(./fonts/icomoon.eot);
+  src: url(./fonts/icomoon.eot) format("embedded-opentype"), url(./fonts/icomoon.ttf) format("truetype"),
+    url(./fonts/icomoon.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: block;
 }
 @font-face {
   font-family: "k010";
-  src: url(https://flebo.in/static/media/k010.2cda1d78.eot);
-  src: local("k010"), url(https://flebo.in/static/media/k010.d3f0ac33.woff) format("woff"),
-    url(https://flebo.in/static/media/k010.798a43ad.ttf) format("truetype");
+  src: url(./fonts/k010.eot);
+  src: local("k010"), url(./fonts/k010.woff) format("woff"), url(./fonts/k010.ttf) format("truetype");
   font-display: swap;
 }
 @font-face {
