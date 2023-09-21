@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\dashboard\Analytics;
+use App\Http\Controllers\dashboard\Lab;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,8 +17,16 @@ use Illuminate\Support\Facades\Route;
 
 $controller_path = 'App\Http\Controllers';
 
+
+
 // Main Page Route
 Route::get('/', $controller_path . '\dashboard\Analytics@index')->name('dashboard-analytics');
+
+// Labs Route
+Route::prefix('lab')->controller(Lab::class)->group(function () {
+    Route::get('/', 'index')->name('dashboard-analytics');
+});
+
 
 // layout
 Route::get('/layouts/without-menu', $controller_path . '\layouts\WithoutMenu@index')->name('layouts-without-menu');

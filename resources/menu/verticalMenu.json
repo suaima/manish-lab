@@ -7,6 +7,18 @@
       "slug": "dashboard-analytics"
     },
     {
+      "name": "Lab",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "lab",
+      "submenu": [
+        {
+          "url": "/lab",
+          "name": "List",
+          "slug": "lab-list"
+        }
+      ]
+    },
+    {
       "name": "Layouts",
       "icon": "menu-icon tf-icons bx bx-layout",
       "slug": "layouts",
